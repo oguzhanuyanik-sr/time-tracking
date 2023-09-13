@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div
+  className="componentWrapper"
+>
+  <section
+    className="profileWrapper"
+  >
+    <div>
+      <img
+        alt="Avatar"
+        className="profileAvatar"
+        data-nimg="1"
+        decoding="async"
+        height={78}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        sizes="100%"
+        src="/_next/image?url=%2Fimages%2Fimage-jeremy.png&w=3840&q=75"
+        srcSet="/_next/image?url=%2Fimages%2Fimage-jeremy.png&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fimage-jeremy.png&w=3840&q=75 3840w"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={78}
+      />
+    </div>
+    <div>
+      <span
+        className="profileSubtitle"
+      >
+        Report for
+      </span>
+      <h1
+        className="profileTitle"
+      >
+        Jeremy Robson
+      </h1>
+    </div>
+  </section>
+  <section>
+    <ul
+      className="navWrapper"
+    >
+      <li
+        className="navButton "
+        onClick={[Function]}
+      >
+        daily
+      </li>
+      <li
+        className="navButton "
+        onClick={[Function]}
+      >
+        weekly
+      </li>
+      <li
+        className="navButton "
+        onClick={[Function]}
+      >
+        monthly
+      </li>
+    </ul>
+  </section>
+</div>
+`;
