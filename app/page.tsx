@@ -1,12 +1,23 @@
 'use client';
-import ProfileCard from '@/components/profile-card';
-import TimeCards from '@/components/time-cards';
+import Profile from '@/components/profile';
+import CardLayout from '@/components/layout/card-layout';
+import MainLayout from '@/components/layout/main-layout';
+import Card from '@/components/common/card';
+import { periods } from '@/app/api/response.json';
+import { useGlobalContext } from '@/app/context/store';
 
 export default function Home() {
+  const { time } = useGlobalContext();
+  const data = periods[time];
+
   return (
-    <main className='container py-20 lg:flex lg:space-between lg:items-center lg:h-[calc(100vh-20rem)] lg:my-40'>
-      <ProfileCard />
-      <TimeCards />
-    </main>
+    <MainLayout>
+      <Profile />
+      <CardLayout>
+        {data.map((item, index) => (
+          <Card key={index} data={item} />
+        ))}
+      </CardLayout>
+    </MainLayout>
   );
 }

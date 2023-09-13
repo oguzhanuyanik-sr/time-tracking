@@ -1,0 +1,31 @@
+.componentWrapper {
+  @apply lg:w-[23%] lg:mr-[2%] lg:mt-[-30px];
+}
+
+.profileWrapper {
+  @apply bg-purple-200 flex flex-wrap lg:flex-col items-center justify-center lg:items-start gap-5 py-8 lg:pb-20 px-4 lg:px-[28px] rounded-[15px] relative z-20;
+}
+
+.profileAvatar {
+  @apply border-[3px] border-white-100 rounded-full min-w-[78px];
+}
+
+.profileSubtitle {
+  @apply text-purple-100 text-[15px];
+}
+
+.profileTitle {
+  @apply font-light text-2xl lg:text-[40px] lg:leading-[50px];
+}
+
+.navWrapper {
+  @apply bg-purple-400 rounded-b-[15px] flex flex-wrap justify-evenly pb-[30px] pt-[40px] mt-[-10px] z-10 relative lg:flex-col lg:gap-4 lg:px-[30px];
+}
+
+.navButton {
+  @apply text-purple-100 cursor-pointer lg:text-lg capitalize hover:text-white-100 transition-all;
+}
+
+.navButtonActive {
+  @apply text-white-100;
+}
