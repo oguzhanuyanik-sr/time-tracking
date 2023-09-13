@@ -24,6 +24,7 @@ const config: Config = {
       'purple-200': '#5747EA',
       'purple-300': '#1C204B',
       'purple-400': '#0E1323',
+      'purple-500': '#33397A',
     },
     fontFamily: {},
     boxShadow: {},

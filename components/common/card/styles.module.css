@@ -11,7 +11,7 @@
 }
 
 .cardWrapper {
-  @apply bg-purple-300 rounded-[15px] relative z-20 mt-[-10px] px-5 py-[30px] lg:min-h-[203px];
+  @apply bg-purple-300 hover:bg-purple-500 transition-all rounded-[15px] relative z-20 mt-[-10px] px-5 py-[30px] lg:min-h-[203px];
 }
 
 .cardTopWrapper {
