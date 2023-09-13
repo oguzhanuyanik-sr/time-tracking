@@ -26,7 +26,7 @@ const Card = ({ data }: CardProps) => {
           height={25}
           width={70}
           sizes='100%'
-          className={`${styles.cardContainer}`}
+          className={`${styles.backgroundImage}`}
         />
       </div>
 
