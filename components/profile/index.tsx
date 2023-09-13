@@ -1,6 +1,5 @@
-'use client';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React from 'react';
 import { profile, periods } from '@/app/api/response.json';
 import styles from './styles.module.css';
 import { useGlobalContext } from '@/app/context/store';
@@ -8,9 +7,7 @@ import { useGlobalContext } from '@/app/context/store';
 const { title, subtitle, img } = profile;
 const buttons = Object.keys(periods);
 
-type Props = {};
-
-const Profile = (props: Props) => {
+const Profile = () => {
   const { time, setTime } = useGlobalContext();
 
   return (

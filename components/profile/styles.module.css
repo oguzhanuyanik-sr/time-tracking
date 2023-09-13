@@ -19,7 +19,7 @@
 }
 
 .navWrapper {
-  @apply bg-purple-400 rounded-b-[15px] flex flex-wrap justify-evenly pb-[30px] pt-[40px] mt-[-10px] z-10 relative lg:flex-col lg:gap-4 lg:px-[30px];
+  @apply bg-purple-300 rounded-b-[15px] flex flex-wrap justify-evenly pb-[30px] pt-[40px] mt-[-10px] z-10 relative lg:flex-col lg:gap-4 lg:px-[30px];
 }
 
 .navButton {

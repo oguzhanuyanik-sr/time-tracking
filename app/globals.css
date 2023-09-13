@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-purple-500 text-white-100;
+    @apply bg-purple-400 text-white-100;
   }
 }

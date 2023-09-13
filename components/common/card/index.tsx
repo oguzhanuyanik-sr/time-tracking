@@ -4,9 +4,17 @@ import Image from 'next/image';
 import Ellipsis from '@/public/images/icon-ellipsis.svg';
 import { cardIcons, cardColors } from './constants';
 
-type Props = {};
+interface CardProps {
+  data: {
+    id: number;
+    title: string;
+    subtitle: string;
+    hour: string;
+    last: string;
+  };
+}
 
-const Card = ({ data }: Props) => {
+const Card = ({ data }: CardProps) => {
   const { id, title, subtitle, hour, last } = data;
 
   return (

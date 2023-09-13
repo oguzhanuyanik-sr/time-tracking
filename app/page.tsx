@@ -8,6 +8,11 @@ import { useGlobalContext } from '@/app/context/store';
 
 export default function Home() {
   const { time } = useGlobalContext();
+
+  if (time !== 'daily' && time !== 'weekly' && time !== 'monthly') {
+    throw new Error('Invalid time value');
+  }
+
   const data = periods[time];
 
   return (
