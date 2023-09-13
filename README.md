@@ -1,1 +1,2 @@
-# Dev in progress...
+<h1 align="center"><a href="https://time-ou.vercel.app/">Time Tracking App - Live Demo</a></h2>
+<img alt="Time Tracking App" src="https://raw.githubusercontent.com/oguzhanuyanik-sr/time-tracking/master/screenshot.png" />
