@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
+import { GlobalContextProvider } from './context/store';
 
 const rubik = Rubik({
   weight: ['300', '400', '500', '600', '700', '800'],
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={rubik.className}>
-        <main>{children}</main>
+        <GlobalContextProvider>{children}</GlobalContextProvider>
       </body>
     </html>
   );

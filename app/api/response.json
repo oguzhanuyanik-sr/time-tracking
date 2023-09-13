@@ -1,0 +1,141 @@
+{
+  "profile": {
+    "title": "Jeremy Robson",
+    "subtitle": "Report for",
+    "img": "/images/image-jeremy.png"
+  },
+  "periods": {
+    "daily": [
+      {
+        "id": 0,
+        "title": "Work",
+        "subtitle": "Yesterday",
+        "hour": "12",
+        "last": "8"
+      },
+      {
+        "id": 1,
+        "title": "Play",
+        "subtitle": "Yesterday",
+        "hour": "3",
+        "last": "5"
+      },
+      {
+        "id": 2,
+        "title": "Study",
+        "subtitle": "Yesterday",
+        "hour": "9",
+        "last": "7"
+      },
+      {
+        "id": 3,
+        "title": "Exercise",
+        "subtitle": "Yesterday",
+        "hour": "2",
+        "last": "3"
+      },
+      {
+        "id": 4,
+        "title": "Social",
+        "subtitle": "Yesterday",
+        "hour": "5",
+        "last": "8"
+      },
+      {
+        "id": 5,
+        "title": "Self Care",
+        "subtitle": "Yesterday",
+        "hour": "2",
+        "last": "2"
+      }
+    ],
+    "weekly": [
+      {
+        "id": 0,
+        "title": "Work",
+        "subtitle": "Last Week",
+        "hour": "24",
+        "last": "16"
+      },
+      {
+        "id": 1,
+        "title": "Play",
+        "subtitle": "Last Week",
+        "hour": "6",
+        "last": "10"
+      },
+      {
+        "id": 2,
+        "title": "Study",
+        "subtitle": "Last Week",
+        "hour": "18",
+        "last": "14"
+      },
+      {
+        "id": 3,
+        "title": "Exercise",
+        "subtitle": "Last Week",
+        "hour": "4",
+        "last": "6"
+      },
+      {
+        "id": 4,
+        "title": "Social",
+        "subtitle": "Last Week",
+        "hour": "10",
+        "last": "16"
+      },
+      {
+        "id": 5,
+        "title": "Self Care",
+        "subtitle": "Last Week",
+        "hour": "4",
+        "last": "4"
+      }
+    ],
+    "monthly": [
+      {
+        "id": 0,
+        "title": "Work",
+        "subtitle": "Last Month",
+        "hour": "36",
+        "last": "24"
+      },
+      {
+        "id": 1,
+        "title": "Play",
+        "subtitle": "Last Month",
+        "hour": "9",
+        "last": "15"
+      },
+      {
+        "id": 2,
+        "title": "Study",
+        "subtitle": "Last Month",
+        "hour": "27",
+        "last": "21"
+      },
+      {
+        "id": 3,
+        "title": "Exercise",
+        "subtitle": "Last Month",
+        "hour": "6",
+        "last": "9"
+      },
+      {
+        "id": 4,
+        "title": "Social",
+        "subtitle": "Last Month",
+        "hour": "15",
+        "last": "24"
+      },
+      {
+        "id": 5,
+        "title": "Self Care",
+        "subtitle": "Last Month",
+        "hour": "6",
+        "last": "6"
+      }
+    ]
+  }
+}
